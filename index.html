@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario 2</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <section><img src="immagini/form1.jpg" alt="Logo"></section>
+            <section>
+                <h2>Dati personali</h2>>
+            </section>
+        </header>
+
+        <section class="form-box">
+            <form action="a" method="post">
+                <section>
+                    <div class="col-sx">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                    
+                    
+                        <div>
+                            <label for="lastname">Cognome</label>
+                            <input type="text" name="lastname" id="lastname">
+
+                        </div>
+                    
+
+                    <div>
+
+                        <label for="Città">Città</label>
+                        <select name="Città" id="Città">
+                            <option value="Bellinzona">Bellinzona</option>
+                            <option value="Locarno">Locarno</option>
+                            <option value="Lugano"> Lugano</option>
+                        </select>
+
+                    </div>
+
+                    
+                        <div>
+                            Desidero ricevere una risposta?
+                            <label for="si">Si</label>
+                            <input type="radio" name="risposta" id="si">
+
+                            <label for="no">No</label>
+                            <input type="radio" name="risposta" id="no">
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="col-dx">
+                            <label for="messaggio">Messaggio</label>
+                            <textarea name="messaggio" id="messaggio"> messaggio</textarea>
+                        </div>
+                    </div>
+
+                </section>
+
+                <div>
+                    <button type="submit">invia richesta</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
